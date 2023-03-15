@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH |tr 'l' '\n' | wc -l
+echo (('echo $Path |grep -0 "./" | wc -l' +1))
